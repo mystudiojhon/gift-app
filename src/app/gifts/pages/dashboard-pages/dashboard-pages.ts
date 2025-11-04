@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from "@angular/router";
 
 @Component({
   selector: 'app-dashboard-pages',
-  imports: [],
+  imports: [RouterOutlet], // Importar RouterOutlet para manejar rutas hijas , objeto de configuración del componente
   templateUrl: './dashboard-pages.html',
   styleUrl: './dashboard-pages.css',
 })
 export default class DashboardPages {
-
+// Clase vacía para el componente DashboardPages exportado por defecto
 }
 
 // IGNORE , Para utilizar y crear un componente Angular con angular schematics
