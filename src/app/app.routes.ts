@@ -5,6 +5,7 @@ export const routes: Routes = [
     path: 'dashboard',
     loadComponent: () => import('./gifts/pages/dashboard-pages/dashboard-pages'), // Ruta perezosa (lazy loading) del componente DashboardPages
     children: [
+
       {
         path: 'trending',
         loadComponent: () => import('./gifts/pages/trending-pages/trending-pages'),

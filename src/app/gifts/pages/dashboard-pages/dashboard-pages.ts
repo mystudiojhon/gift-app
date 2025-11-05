@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from "@angular/router";
+import { SideMenu } from "../../components/side-menu/side-menu";
 
 @Component({
   selector: 'app-dashboard-pages',
-  imports: [RouterOutlet], // Importar RouterOutlet para manejar rutas hijas , objeto de configuración del componente
+  imports: [RouterOutlet, SideMenu], // Importar el componente GifsSideMenu
   templateUrl: './dashboard-pages.html',
   styleUrl: './dashboard-pages.css',
 })
