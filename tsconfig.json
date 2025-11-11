@@ -3,10 +3,13 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",  // Necesario para usar paths no relativos
     "paths": {
-      // Varias import alias para facilitar importaciones
+      // Alias para importaciones más limpias
+      "@env/*": ["src/environments/*"],
       "@app/*": ["src/app/*"],
-      "@env/*": ["src/environments/*"]
+      "@shared/*": ["src/app/shared/*"],
+      "@core/*": ["src/app/core/*"]
     },
     "strict": true,
     "noImplicitOverride": true,
