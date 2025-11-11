@@ -1,18 +1,26 @@
-<div id="logo" class="my-4 px-6">
-  <h1 class="text-lg md:text-2xl font-bold text-white"><i class="fa-solid fa-icons"></i> {{ envs.companyName }}<span
-      class="text-blue-500"> {{ envs.companyName2
-      }}</span>.</h1>
-  <p class="text-slate-500 text-sm">{{ envs.companyName }}</p>
+<div id="logo" class="my-4 px-2">
+  <!-- Titular: más pequeño en pantallas pequeñas -->
+  <h1 class=" text-[16px] sm:text-2xl font-bold text-white">
+    <i class="fa-solid fa-icons mr-1"></i>
+    {{ envs.companyName }}
+    <span class="text-blue-500"> {{ envs.companyName2 }}</span>.
+  </h1>
+  <!-- Proyecto: tamaño reducido en pantallas pequeñas -->
+  <p class="text-slate-400 text-[13px] sm:text-sm">{{ envs.companyNameProyect }}</p>
 </div>
-<div id="profile" class="px-6 py-4">
-  <p class="text-slate-500">Welcome back,</p>
+
+<div id="profile" class="px-2 py-1">
+  <!-- Saludo: texto más pequeño en móviles -->
+  <p class="text-slate-500 mb-3 text-xs sm:text-sm ">Welcome</p>
   <a href="#" class="inline-flex space-x-2 items-center">
     <span>
-      <img class="rounded-full w-8 h-8"
-        src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=128&q=80"
+      <!-- Avatar: más pequeño en móviles -->
+      <img class="rounded-full w-7 h-7 sm:w-8 sm:h-8"
+        src="https://universidadeuropea.com/resources/media/images/tipos-aviones-800x450.width-1200.format-webp.webp"
         alt="">
     </span>
-    <span class="text-sm md:text-base font-bold">
+    <!-- Nombre: texto más pequeño por defecto, escala en pantallas mayores -->
+    <span class="text-xs sm:text-sm md:text-base font-bold">
       Jonathan Carpio
     </span>
   </a>

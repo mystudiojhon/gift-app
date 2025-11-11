@@ -1,6 +1,8 @@
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4">
   <!-- grid-cols-1 para tener 1 Img , cols2 para pequeñas , cols3 para medianas y xl para grandes -->
   @for (gif of gifs(); track gif;) {
-  <gift-list-item [imageUrls]="gif" />
+    <!-- Variable que se encuentra en los item imageUrls -->
+    <gift-list-item [imageUrls]="gif" />
+    <!-- Entre llaves porque selecionamos desde los objetos siendo un signal -->
   }
 </div>

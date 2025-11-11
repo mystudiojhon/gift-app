@@ -15,7 +15,7 @@ const imageUrls: string[] = [
   'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-10.jpg',
   'https://flowbite.s3.amazonaws.com/docs/gallery/square/image-11.jpg',
 ];
-
+// Importación de las imagenes
 
 @Component({
   selector: 'app-trending-pages',
@@ -24,5 +24,5 @@ const imageUrls: string[] = [
   styleUrl: './trending-pages.css',
 })
 export default class TrendingPages {
-  gifs = signal(imageUrls);
+  gifs = signal(imageUrls); // Signal para nombrar los gifs
 }

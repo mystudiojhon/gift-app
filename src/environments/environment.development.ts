@@ -1,7 +1,7 @@
 export const environment = {
   production: false,
-  companyName: 'STS',
-  companyNameFull: 'Gifs App',
+  companyName: 'Gifs',
+  companyNameProyect: 'STS',
   companyName2: 'App',
 
   // Configuración de la API de Giphy
