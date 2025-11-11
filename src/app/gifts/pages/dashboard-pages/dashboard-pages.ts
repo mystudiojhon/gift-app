@@ -1,13 +1,15 @@
 import { Component } from '@angular/core';
+import { RouterOutlet } from "@angular/router";
+import { SideMenu } from "../../components/side-menu/side-menu";
 
 @Component({
   selector: 'app-dashboard-pages',
-  imports: [],
+  imports: [RouterOutlet, SideMenu], // Importar el componente GifsSideMenu
   templateUrl: './dashboard-pages.html',
   styleUrl: './dashboard-pages.css',
 })
 export default class DashboardPages {
-
+// Clase vacía para el componente DashboardPages exportado por defecto
 }
 
 // IGNORE , Para utilizar y crear un componente Angular con angular schematics
