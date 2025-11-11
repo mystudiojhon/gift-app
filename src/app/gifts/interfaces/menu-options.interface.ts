@@ -1,4 +1,4 @@
-import { computed, signal, Signal, WritableSignal } from '@angular/core';
+import { computed, signal, WritableSignal } from '@angular/core';
 
 /**
  * En Angular 17+, las Signals son la nueva forma recomendada de manejar estado reactivo.

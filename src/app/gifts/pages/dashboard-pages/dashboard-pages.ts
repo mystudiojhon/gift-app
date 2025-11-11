@@ -9,7 +9,7 @@ import { SideMenu } from "../../components/side-menu/side-menu";
   styleUrl: './dashboard-pages.css',
 })
 export default class DashboardPages {
-// Clase vacía para el componente DashboardPages exportado por defecto
+// Clase vacía para el componente DashboardPages exportado por defecto y evitar la ruta larga
 }
 
 // IGNORE , Para utilizar y crear un componente Angular con angular schematics
